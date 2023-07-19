@@ -109,6 +109,7 @@ nav {
 .banner-text-area {
     width: 50%;
 }
+
 .banner-text h3 {
     color: #0B0223;
     font-size: 4.5rem;
@@ -139,9 +140,11 @@ nav {
     line-height: 40px;
     text-transform: lowercase;
 }
+
 .banner-text input {
     margin-top: 40px;
 }
+
 .btn {
     border-radius: 48px;
     background: #4EC5F7;
@@ -161,6 +164,313 @@ nav {
 
 .banner-img img {
     width: 100%;
+    margin-bottom: -15px;
+}
+
+/* we are gamer section */
+.we-are-gamer-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 55px 240px;
+    gap: 50px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.we-ar-gamer-img {
+    width: 50%;
+}
+
+.we-ar-gamer-img img {
+    width: 100%;
+}
+
+.we-ar-gamer-text {
+    width: 50%;
+    text-align: end;
+}
+
+.we-ar-gamer-text h3 {
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.we-ar-gamer-text p {
+    color: #534C64;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+
+.we-ar-gamer-text button {
+    margin-bottom: 24px;
+}
+
+.we-ar-gamer-text h6 {
+    color: #534C64;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.we-ar-gamer-text h6 q {
+    color: #534C64;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/* funny video section */
+.funny-video-container {
+    margin: 120px 0px;
+    padding: 0px 240px;
+}
+
+.funny-video-text {
+    text-align: center;
+}
+
+.funny-video-text h3 {
+    color: #0B0223;
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.funny-video-text p {
+    color: #534C64;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.funny-video-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.funny-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.video-card {
+    position: relative;
+}
+
+.video-card img {}
+
+.video-card p {
+    color: #534C64;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.video-play {
+    position: absolute;
+    top: 40%;
+    left: 31%;
+    text-align: center;
+}
+
+.video-play span {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.video-play-text {
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* play instantly section */
+.play-instantly-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 240px;
+}
+
+.play-instantly-text {
+    width: 50%;
+    text-align: end;
+    padding: 149px;
+}
+
+.play-instantly-text h3 {
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.play-instantly-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-instantly-text p,
+.play-games-text p {
+    color: #534C64;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.play-instantly-img {
+    width: 50%;
+    padding: 60px;
+    position: relative;
+}
+
+.baby-img {
+    position: absolute;
+    bottom: 10px;
+    left: -80px;
+}
+
+
+.play-games-online {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 240px;
+}
+
+.play-games-text {
+    width: 50%;
+    text-align: start;
+    padding: 100px 36px 0px 235px;
+}
+
+.play-online-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-games-text h3 {
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.play-games-img {
+    width: 50%;
+    padding: 60px;
+    position: relative;
+
+}
+
+.boy-img {
+    position: absolute;
+    bottom: -25px;
+    right: -173px;
+}
+
+.careers-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff55ae;
+    padding: 30px 240px;
+}
+
+.careers-text {
+    width: 50%;
+}
+
+.careers-text h3 {
+    color: #FFF;
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.careers-text p {
+    color: #FFF;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.careers-inner-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.careers-inner-text p {
+    color: #FFF;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.careers-text button {
+    padding: 21px 40px;
+    margin-top: 40px;
+    border-radius: 48px;
+    background: #FFF;
+    border: 0;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #FF42A5;
+
+}
+
+.careers-text-img {
+    width: 50%;
+}
+
+.careers-text-img img {
+    width: 100%;
 }
 
 
@@ -177,7 +487,8 @@ nav {
     }
 
     .nav-container,
-    .menu {
+    .menu,
+    .careers-container {
         display: block;
     }
 
@@ -204,24 +515,108 @@ nav {
         gap: 50px;
         background-size: cover;
     }
+
     .banner-text-area {
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .banner-text h1 {
         margin-bottom: 15px;
     }
+
     .banner-img {
         width: 100%;
+        margin-bottom: 0px;
     }
+
     .banner-img img {
         width: 100%;
     }
+
     .banner-text input {
         margin-top: 20px;
     }
+
+    .we-are-gamer-container {
+        display: block;
+        padding: 20px;
+        gap: 50px;
+    }
+
+    .we-ar-gamer-img {
+        width: 100%;
+    }
+
+    .we-ar-gamer-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .funny-video-container {
+        margin: 30px 0px;
+        padding: 20px;
+    }
+
+    .funny-video {
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .video-card img {
+        width: 100%;
+    }
+
+    .play-instantly-container {
+        flex-direction: column-reverse;
+        padding: 0px 40px;
+        align-items: center;
+    }
+
+    .play-instantly-text {
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .play-instantly-img {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .play-instantly-img img {
+        width: 100%;
+    }
+
+    .baby-img img {
+        width: 30%;
+        position: relative;
+        top: 0px;
+        left: 70px;
+    }
+
+    .careers-container {
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    .careers-text button {
+        margin: 25px 0px;
+    }
+
+    .careers-text,
+    .careers-text-img {
+        width: 100%;
+    }
+
+    .careers-text-img img {
+        width: 100%;
+    }
+
 }
 
 @media screen and (min-width:577px) and (max-width:992px) {
@@ -230,7 +625,8 @@ nav {
     }
 
     .nav-container,
-    .menu {
+    .menu,
+    .careers-container {
         display: block;
     }
 
@@ -249,29 +645,115 @@ nav {
         margin-right: 0px;
         margin-bottom: 20px;
     }
+
     .banner-container {
         flex-direction: column-reverse;
         padding: 20px;
         gap: 50px;
         background-size: cover;
     }
+
     .banner-text-area {
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .banner-text h1 {
         margin-bottom: 15px;
     }
+
     .banner-img {
         width: 100%;
     }
+
     .banner-img img {
         width: 100%;
+        margin-bottom: 0px;
     }
+
     .banner-text input {
         margin-top: 20px;
+    }
+
+    .we-are-gamer-container {
+        display: block;
+        padding: 20px;
+        gap: 50px;
+    }
+
+    .we-ar-gamer-img {
+        width: 100%;
+    }
+
+    .we-ar-gamer-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .funny-video-container {
+        margin: 30px 0px;
+        padding: 20px;
+    }
+
+    .funny-video {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        margin-top: 20px;
+        gap: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video-card img {
+        width: 100%;
+    }
+
+    .play-instantly-container {
+        flex-direction: column-reverse;
+        padding: 0px 80px;
+        align-items: center;
+    }
+
+    .play-instantly-text {
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .play-instantly-img {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .play-instantly-img img {
+        width: 100%;
+    }
+
+    .baby-img img {
+        width: 50%;
+        position: relative;
+        top: 0px;
+        left: 40px;
+    }
+
+    .careers-container {
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    .careers-text button {
+        margin: 25px 0px;
+    }
+
+    .careers-text,
+    .careers-text-img {
+        width: 100%;
+    }
+
+    .careers-text-img img {
+        width: 100%;
     }
 
 }
