@@ -281,10 +281,12 @@ nav {
     gap: 24px;
     margin-top: 48px;
 }
+
 .video-card {
     position: relative;
     width: 100%;
 }
+
 .video-card img {
     opacity: 1;
     display: block;
@@ -293,6 +295,7 @@ nav {
     transition: .5s ease;
     backface-visibility: hidden;
 }
+
 .video-play {
     transition: .5s ease;
     opacity: 0;
@@ -311,12 +314,14 @@ nav {
 .video-card:hover .video-play {
     opacity: 1;
 }
+
 .video-play-text {
     border-radius: 16px;
     color: white;
     font-size: 16px;
     padding: 16px 32px;
 }
+
 .video-card p {
     color: #534C64;
     font-size: 2rem;
@@ -324,6 +329,7 @@ nav {
     font-weight: 500;
     line-height: 30px;
 }
+
 .video-play span {
     font-size: 2rem;
     font-style: normal;
@@ -334,10 +340,12 @@ nav {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .video-play-text {
     color: white;
     font-size: 1.5rem;
 }
+
 .video-play-text i {
     font-size: 4rem;
     color: #FFF;
@@ -482,7 +490,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 20px;
+    padding: 10px 20px;
 }
 
 .games-item h6 {
@@ -498,7 +506,7 @@ nav {
     background-color: #FFF;
     color: #F948B2;
     border: 1px solid #F948B2;
-    padding: 20px 20px;
+    padding: 10px 20px;
 }
 
 .games-item h6:hover {
