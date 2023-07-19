@@ -561,6 +561,7 @@ nav {
     color: white;
     font-size: 4rem;
     margin: 66px 0px;
+    cursor: pointer;
 }
 
 .game-privacy-settings p {
